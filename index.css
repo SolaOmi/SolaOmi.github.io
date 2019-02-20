@@ -40,8 +40,10 @@ a, a:hover, a:visited, a:active {
   transform: scale(1.2);
 }
 
-/*@media (max-width: 768px) {
-  body {
-    background-position: right bottom;
-  }
-}*/
+.underline {
+  border-bottom: 2px dotted black;
+}
+
+.underline:hover {
+  border-bottom: 3px solid black;
+}
