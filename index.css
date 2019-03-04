@@ -1,9 +1,9 @@
-.section-height {
-  height: 200px;
+section {
+  padding-top: 2.0rem;
 }
 
-#intro {
-  background-color: blue;
+.section-height {
+  height: 200px;
 }
 
 #about {
