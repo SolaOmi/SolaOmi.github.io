@@ -16,13 +16,15 @@ header {
   height: 60px;
 }
 
+main {
+  box-sizing: content-box;
+  padding: 16px;
+}
+
 header, main, footer {
   border: 1px solid red;
 }
 
-a {
-  text-decoration: none;
-}
 
 ul {
   list-style-type: none;
@@ -46,4 +48,12 @@ ul {
 
 .icon:hover {
   color: #FFF;
+}
+
+.project {
+  margin-bottom: 8px;
+}
+
+.project a {
+  color: #E5C2C0;
 }
