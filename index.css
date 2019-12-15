@@ -12,16 +12,12 @@ body {
   background-color: #0C5B55;
 }
 
-header {
-  height: 60px;
-}
-
 main {
   box-sizing: content-box;
   padding: 16px;
 }
 
-header, main, footer {
+main, footer {
   border: 1px solid red;
 }
 
