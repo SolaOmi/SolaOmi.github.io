@@ -8,13 +8,30 @@ body {
   margin: 0;
 }
 
+header {
+  background-color: red;
+  height: 60px;
+}
+
+header p {
+  margin: 0;
+}
+
+main {
+  background-color: green;
+}
+
+footer {
+  background-color: blue;
+}
+
 .sides {
   width: 100%;
   height: 100%;
 }
 
 #left-side {
-  background-color: red;
+  padding: 16px;
 }
 
 #right-side {
