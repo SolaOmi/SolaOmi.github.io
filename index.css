@@ -55,7 +55,7 @@ ul {
 }
 
 #left-side {
-  padding: 16px;
+  padding: 1.0rem;
 }
 
 #right-side {
@@ -84,6 +84,26 @@ ul {
 #social-links li:hover {
   color: black;
   transform: scale(1.2);
+}
+
+@media (min-width: 425px) {
+  #left-side {
+    padding: 2.0rem;
+  }
+}
+
+@media (min-width: 576px) {
+  #left-side {
+    font-size: 1.2rem;
+    padding: 3.0rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #left-side {
+    font-size: 1.5rem;
+    padding: 5.0rem;
+  }
 }
 
 @media (min-width: 1024px) {
