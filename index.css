@@ -25,6 +25,11 @@ nav {
   padding: 1.0rem;
 }
 
+footer {
+  padding: 2.0rem 0;
+  text-align: center;
+}
+
 section {
   height: 500px;
 }
