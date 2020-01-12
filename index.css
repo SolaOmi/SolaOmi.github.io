@@ -15,15 +15,17 @@ a  {
 header {
   display: flex;
   justify-content: center;
+  position: absolute;
   width: 100%;
 }
 
 nav {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   margin-top: 1.0rem;
   width: 300px;
-  padding: 1.0rem;
+  padding-top: 2.0rem;
 }
 
 footer {
@@ -33,10 +35,6 @@ footer {
 
 section {
   height: 500px;
-}
-
-#intro {
-  background-color: blue;
 }
 
 #skills {
@@ -49,4 +47,44 @@ section {
 
 #contact {
   background-color: blue;
+}
+
+.intro {
+  height: 100vh;
+}
+
+.intro a {
+  color: #c7d1d1;
+  font-size: 0.75rem;
+  position: absolute;
+  bottom: 30%;
+  text-transform: uppercase;
+   transition: all .3s;
+}
+
+.intro a:hover {
+  transform: scale(1.2);
+}
+
+.intro-container {
+  font-size: 1.5rem;
+  max-width: 650px;
+  padding: 0 1.0rem;
+  text-align: center;
+}
+
+.vertical-line {
+  background-color: #fff;
+  height: 8.0rem;
+  width: 2px;
+  position: absolute;
+  bottom: 6%;
+  left: 50%;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
