@@ -7,7 +7,7 @@ body {
 }
 
 a  {
-  text-decoration: none;
+  /*text-decoration: none;*/
   color: inherit;
   cursor: pointer;
 }
@@ -53,14 +53,14 @@ section {
   height: 100vh;
 }
 
-.intro a {
+/*.intro a {
   color: #c7d1d1;
   font-size: 0.75rem;
   position: absolute;
   bottom: 30%;
   text-transform: uppercase;
-   transition: all .3s;
-}
+  transition: all .3s;
+}*/
 
 .intro a:hover {
   transform: scale(1.2);
@@ -87,4 +87,8 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.name {
+  font-weight: bold;
 }
